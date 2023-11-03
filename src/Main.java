@@ -8,7 +8,8 @@ public class Main {
         task6();
         task7();
     }
-    public static void task1 () {
+
+    public static void task1() {
         System.out.println("Задача 1");
         int age1 = 50;
         if (age1 >= 18) {
@@ -29,7 +30,7 @@ public class Main {
         }
     }
 
-    public static void task2 () {
+    public static void task2() {
         System.out.println("Задача 2");
         int temperatureHot = 15;
         if (temperatureHot >= 5) {
@@ -49,7 +50,8 @@ public class Main {
             System.out.println("Температура " + temperatureCold + " нужно надеть шапку");
         }
     }
-    public static void task3 () {
+
+    public static void task3() {
         System.out.println("Задача 3");
         int speed1 = 86;
         if (speed1 >= 60) {
@@ -70,7 +72,7 @@ public class Main {
         }
     }
 
-    public static void task4 () {
+    public static void task4() {
         System.out.println("Задача 4");
         int age1 = 5;
         if (age1 >= 2 && age1 <= 6) {
@@ -117,7 +119,7 @@ public class Main {
         }
     }
 
-    public static void task5 () {
+    public static void task5() {
         System.out.println("Задача 5");
         int ageChild = 4;
         if (ageChild < 5) {
@@ -147,12 +149,12 @@ public class Main {
         }
     }
 
-    public static void task6 () {
+    public static void task6() {
         System.out.println("Задача 6");
         int sumPassengers = 5;
         if (sumPassengers <= 60) {
             System.out.println("В вагоне есть сидячие места");
-        } else if (sumPassengers > 60 && sumPassengers <= 102){
+        } else if (sumPassengers > 60 && sumPassengers <= 102) {
             System.out.println("В вагоне есть стоячие места");
         } else {
             System.out.println("Вагон заполнен полностью");
@@ -161,7 +163,7 @@ public class Main {
         int sumPassengers2 = 63;
         if (sumPassengers2 <= 60) {
             System.out.println("В вагоне есть сидячие места");
-        } else if (sumPassengers2 > 60 && sumPassengers2 <= 102){
+        } else if (sumPassengers2 > 60 && sumPassengers2 <= 102) {
             System.out.println("В вагоне есть стоячие места");
         } else {
             System.out.println("Вагон заполнен полностью");
@@ -170,14 +172,14 @@ public class Main {
         int sumPassengers3 = 103;
         if (sumPassengers3 <= 60) {
             System.out.println("В вагоне есть сидячие места");
-        } else if (sumPassengers3 > 60 && sumPassengers3 <= 102){
+        } else if (sumPassengers3 > 60 && sumPassengers3 <= 102) {
             System.out.println("В вагоне есть стоячие места");
         } else {
             System.out.println("Вагон заполнен полностью");
         }
     }
 
-    public static void task7 () {
+    public static void task7() {
         System.out.println("Задача 7");
         int one = 100;
         int two = 100;
